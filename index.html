@@ -7,27 +7,35 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card-body text-center">
-          <h1 class="card-title h3">La Manu Le Havre</h1>
-          <p class="card-text">L'Ecole des métiers du Numérique.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#leHavreModal">+ d'infos</button>
+      <div class="row d-flex justify-content-center mt-4">
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h1 class="card-title h3">La Manu Le Havre</h1>
+              <p class="card-text">L'Ecole des métiers du Numérique.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#leHavreModal">+ d'infos</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="modal" tabindex="-1" role="dialog" id="leHavreModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">La Manu Le Havre</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body bg-primary">
-              <p class="text-center text-white text-decoration-none">https://lamanu.fr/le-havre</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+      <div class="row d-flex justify-content-center">
+        <div class="col-6">
+          <div class="modal" tabindex="-1" role="dialog" id="leHavreModal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">La Manu Le Havre</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <p aria-hidden="true">&times;</p>
+                  </button>
+                </div>
+                <div class="modal-body bg-primary">
+                  <a class="text-center text-white text-decoration-none" href="https://lamanu.fr/le-havre" target="_blank">https://lamanu.fr/le-havre</a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
